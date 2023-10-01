@@ -1,11 +1,12 @@
-# Content Management System (CMS)
+# Cotent Management System (CMS)
 
 ## Prerequisites
 
-Before you can run locally, ensure that your computer meets the following requirements:
+Before you can run Your CMS Name locally, ensure that your computer meets the following requirements:
 
 - Node.js: [Download and install Node.js](https://nodejs.org/).
 - PHP: [Download and install the latest version of PHP](https://www.php.net/downloads.php).
+- Database software (e.g., phpMyAdmin, TablePlus) for hosting the database.
 
 ## Installation
 
@@ -13,6 +14,7 @@ Before you can run locally, ensure that your computer meets the following requir
 
    ```bash
    git clone https://github.com/WarpDrive2036/CMS
+
 
 2. Navigate to the project directory:
   cd your-cms-name
@@ -27,6 +29,10 @@ Check the configuration file located at config/config.php. Ensure that it contai
 'password' => 'your_db_password',
 
 Update the configuration file with the appropriate values for your local database setup.
+
+Locate the cms.sql file in the root folder directory of the program.
+
+Use specialized database software like phpMyAdmin or TablePlus to create a new database (e.g., cms) and import the cms.sql file into it.
 
 3. Usage
 To run Your CMS Name locally, follow these steps:
