@@ -4,7 +4,7 @@
 -- https://tableplus.com/
 --
 -- Database: cms
--- Generation Time: 2023-10-02 15:40:51.7970
+-- Generation Time: 2023-10-02 15:53:37.6950
 -- -------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ CREATE TABLE `users_online` (
   `session` varchar(255) DEFAULT NULL,
   `time` int DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=264 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=265 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `categories` (`id`, `cat_title`, `added_by`) VALUES
 (87, 'HTML 10', 8),
@@ -138,7 +138,7 @@ INSERT INTO `posts` (`id`, `post_category_id`, `post_title`, `post_author`, `pos
 INSERT INTO `users` (`id`, `username`, `password`, `firstname`, `lastname`, `email`, `user_image`, `role`, `randSalt`) VALUES
 (8, 'amrsamy3', '$2y$10$6/zIQqqfKMxDULwLVqtB6OY/UcjEoOll.ZVqQiknTQkyqc9Scl/f6', 'Amr', 'Samy', 'amrs@email.com', 'Arnold Schwarzenegger.jpeg', 'subscriber', NULL),
 (9, 'Nada_Cat_MOM', '$2y$10$rfPLzdV5C1DRzgN8QXJFm.uctroqeIPmsHigsFubHL.W9etIQdjz.', 'Nada', 'Ali', 'nada@email.com', 'Emilia Clarke.jpeg', 'subscriber', NULL),
-(17, 'EpicHaxer2000', '$2y$10$rhuMzIzrZQQbE.GuGGvia.d5Dn.NfyvigqO7rA/AbH3mJ/w1NW0rq', 'Ahmed', 'AbdelRazek', 'ahmed@email.com', 'Chris Evans.jpeg', 'admin', NULL),
+(17, 'admin', '$2y$10$olQbM0Ap4cOfnYTiHeCRSuLj6GL7yjzxSp2nXdSctdUu4YJK/EwDq', 'Ahmed', 'AbdelRazek', 'ahmed@email.com', 'Chris Evans.jpeg', 'admin', NULL),
 (23, 'yohana', '$2y$10$115k/jLCtgwBqDyRzgCuEube7adfhgS/GwDQi8kPumpR.UyDD5aaS', 'Yehya', 'Islam', 'yehya@email.com', 'Bill Gates.jpeg', 'subscriber', NULL);
 
 INSERT INTO `users_online` (`id`, `session`, `time`) VALUES
@@ -184,7 +184,8 @@ INSERT INTO `users_online` (`id`, `session`, `time`) VALUES
 (260, 'im8u46isg2dpgg6pbct8mcep00', 1688160250),
 (261, '8q9rfq944uev98e1vvhsanl8cv', 1688161596),
 (262, 'cv9rcarrpsgp8nac6q64n2j1ad', 1688161764),
-(263, 'bsqc21k721ars5lhvhbc0eur6n', 1693251845);
+(263, 'bsqc21k721ars5lhvhbc0eur6n', 1693251845),
+(264, 'ufpmok4aq5kicbv4e902giulhq', 1696250872);
 
 
 
