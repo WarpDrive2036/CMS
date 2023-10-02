@@ -45,6 +45,12 @@ cd your-cms-name
 Start a local web server to serve the project from the public folder:
 php -S localhost:8888 -t public
 
+Admin Credentials: The default admin credentials for the CMS are as follows:
+
+Username: admin
+Password: 12345
+Please change the admin password after the initial setup for security reasons.
+
 Finally, Open your web browser and access the CMS at http://localhost:8888.
 
 
